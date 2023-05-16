@@ -1,0 +1,174 @@
+Name: StyleSheets
+Type: FolderType
+Children:
+- Name: CustomizeStyleSheet
+  Type: StyleSheet
+  Children:
+  - Name: ButtonStyle
+    Type: ButtonStyle
+  - Name: ButtonAccentStyle
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Type: DataInputStyle
+    Children:
+    - Name: PlaceHolderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#f7be61"
+  - Name: SwitchStyle
+    Type: SwitchStyle
+  - Name: GaugeStyle
+    Type: GaugeStyle
+    Children:
+    - Name: HandleSize
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 20.0
+  - Name: NavigationPanelStyle
+    Type: NavigationPanelStyle
+  - Name: ChartStyle
+    Type: ChartStyle
+  - Name: DataListStyle
+    Type: DataListStyle
+  - Name: ToolTipStyle
+    Type: ToolTipStyle
+  - Name: ScrollBarStyle
+    Type: ScrollBarStyle
+    Children:
+    - Name: AutoHide
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Size
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 15.0
+  - Name: AccordionStyle
+    Type: AccordionStyle
+    Children:
+    - Name: HeaderIconPosition
+      Type: BaseDataVariableType
+      DataType: HeaderIconPositionEnum
+      Value: 1
+    - Name: HeaderBackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#7cf830"
+    - Name: ContentBackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#98fec3"
+  - Name: PieChartStyle
+    Type: PieChartStyle
+    Children:
+    - Name: HoleSizePercent
+      Type: BaseDataVariableType
+      DataType: Percentage
+      Value: 50.0
+  - Name: HistogramChartStyle
+    Type: HistogramChartStyle
+    Children:
+    - Name: Spacing
+      Type: BaseDataVariableType
+      DataType: Size
+      Value: 20.0
+  - Name: TextColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#0393fc"
+  - Name: BorderColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#012ef9"
+  - Name: BorderWidth
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 2.0
+  - Name: FocusGlowSize
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 10.0
+  - Name: Radius
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 10.0
+  - Name: AccentBorderColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#54b3a4"
+  - Name: AccentTextColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#fb2121"
+  - Name: DataInputBackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#cddff9"
+  - Name: DataInputTextColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#15773c"
+  - Name: InteractiveBackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#ef8881"
+  - Name: InteractiveColorGradientPercent
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.30000001192092896
+  - Name: InteractiveDropShadowSize
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 10.0
+  - Name: HorizontalPaddingPercent
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.5
+  - Name: VerticalPaddingPercent
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.5
+  - Name: FontWeight
+    Type: BaseDataVariableType
+    DataType: FontWeightEnum
+    Value: 800
+  - Name: FontItalic
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: FontPixelSize
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 14.0
+  - Name: FontFamily
+    Type: BaseDataVariableType
+    DataType: Font
+    Value: "Rockwell"
+  - Name: DisabledOpacity
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.5
+  - Name: AnimationDuration
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1500
+  - Name: BlinkingPeriod
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:5.0000000"
+  - Name: AccentColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#09f2e4"
+  - Name: FocusColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#fa0fff"
+  - Name: WindowColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#fcfec2"
+  - Name: InteractiveColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#17f98d"
